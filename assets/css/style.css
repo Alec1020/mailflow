@@ -1,0 +1,36 @@
+/* Global dark mode */
+body {
+    background: #0f1117;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.bg-dark { background: #0f1117 !important; }
+.bg-secondary { background: #171b22 !important; }
+
+.mail-item:hover {
+    background: #202734;
+    cursor: pointer;
+}
+
+/* Scrollable sidebar */
+#mailList {
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+}
+
+/* Compose Modal */
+.modal-content {
+    background: #171b22;
+    color: #fff;
+}
+
+.sidebar{
+    background:#171b22;
+    height:100vh;
+    padding-top:15px;
+}
+
+.sidebar .btn-primary{
+    font-weight:600;
+}
